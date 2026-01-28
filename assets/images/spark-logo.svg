@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="sparkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F97316;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EA580C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Main spark/flame shape -->
+  <path
+    d="M50 5
+       C55 20, 75 25, 75 45
+       C75 55, 70 65, 65 72
+       C68 68, 70 62, 70 55
+       C70 45, 60 40, 55 50
+       C52 55, 55 60, 55 65
+       C55 75, 50 85, 50 95
+       C50 85, 45 75, 45 65
+       C45 60, 48 55, 45 50
+       C40 40, 30 45, 30 55
+       C30 62, 32 68, 35 72
+       C30 65, 25 55, 25 45
+       C25 25, 45 20, 50 5Z"
+    fill="url(#sparkGradient)"
+  />
+
+  <!-- Inner highlight -->
+  <path
+    d="M50 35
+       C53 42, 58 45, 58 52
+       C58 58, 55 63, 52 68
+       C54 65, 55 60, 55 56
+       C55 50, 52 48, 50 52
+       C48 48, 45 50, 45 56
+       C45 60, 46 65, 48 68
+       C45 63, 42 58, 42 52
+       C42 45, 47 42, 50 35Z"
+    fill="#FDBA74"
+    opacity="0.6"
+  />
+</svg>
